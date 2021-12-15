@@ -1,8 +1,8 @@
 <h1 align="center">Neovim</h1>
 <p>My neovim configuration, designed mainly for speed while keeping aesthetics in mind.</p>
 ## Previews 
-![Preview 1](./img1.png)
-![Preview 2](./img2.png)
+![Preview 1](img1.png)
+![Preview 2](img2.png)
 
 ## Install
 * Back up your previous neovim configuration: 
