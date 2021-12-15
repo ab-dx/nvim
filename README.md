@@ -1,5 +1,5 @@
-<h1 align="center">Neovim</h1>
-<p>My neovim configuration, designed mainly for speed while keeping aesthetics in mind.</p>
+# Neovim
+My neovim configuration, designed mainly for speed while keeping aesthetics in mind.
 ## Previews 
 ![Preview 1](img1.png)
 ![Preview 2](img2.png)
