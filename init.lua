@@ -9,5 +9,5 @@ require('highlights')
 -- Components
 require('components/topbar')
 require('components/statusline')
---require('components/filetree')
+require('components/filetree')
 require('components/dashboard')

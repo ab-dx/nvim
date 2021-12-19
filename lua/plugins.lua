@@ -11,6 +11,7 @@ return require('packer').startup(function()
     config = function() require('gitsigns').setup() end
   }
   use{ 'Catppuccin/nvim' }
+	use { 'sainnhe/gruvbox-material' }
   use { 'neoclide/coc.nvim', branch = 'release' }
 --	use { 'tjdevries/colorbuddy.nvim' }
 

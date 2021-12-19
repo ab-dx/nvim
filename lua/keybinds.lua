@@ -36,7 +36,7 @@ map <A-C-l> :vertical resize +5 <CR>
 map <A-C-h> :vertical resize -5 <CR>
 
 " Tabs
-"map <Tab> :tabnext<CR>
+map <Tab> :tabnext<CR>
 map <A-t> :tabnext<CR>
 map <A-C-t> :tabnew<CR>
 

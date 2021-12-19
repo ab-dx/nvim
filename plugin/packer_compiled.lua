@@ -90,6 +90,11 @@ _G.packer_plugins = {
     path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   ["i3config.vim"] = {
     loaded = true,
     path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/i3config.vim",
