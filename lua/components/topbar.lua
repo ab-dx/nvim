@@ -1,6 +1,6 @@
 local bg2 = "#1E1E28"
-local bg = "#1B1923"
-local bg3 = bg 
+local bg = "#15121C"
+local bg3 = bg
 local fg = "#D7DAE0"
 local accent = "#A4B9EF"
 local accent2 = "#E28C8C" -- Not saved
@@ -30,7 +30,7 @@ require("bufferline").setup{
 		separator_style = "slant-cons",
 		enforce_regular_tabs = true,
 		always_show_bufferline = true,
-		sort_by = 'directory' 
+		sort_by = 'directory'
 	},
 	highlights = {
 		fill = {
@@ -116,6 +116,5 @@ require("bufferline").setup{
 			return result
 		end
 	}
-	
 }
 

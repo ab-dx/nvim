@@ -5,7 +5,7 @@ require('auto')
 require('keybinds')
 require('highlights')
 --require('lsp')
-
+require('blankline')
 -- Components
 require('components/topbar')
 require('components/statusline')
