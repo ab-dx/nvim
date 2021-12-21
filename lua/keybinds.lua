@@ -35,6 +35,10 @@ map <A-C-k> :res -5 <CR>
 map <A-C-l> :vertical resize +5 <CR>
 map <A-C-h> :vertical resize -5 <CR>
 
+" Spacing
+map <A-2> :set tabstop=2 shiftwidth=2<CR>
+map <A-4> :set tabstop=4 shiftwidth=4<CR>
+
 " Tabs
 map <Tab> :tabnext<CR>
 map <A-t> :tabnext<CR>
