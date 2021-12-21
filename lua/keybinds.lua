@@ -43,6 +43,7 @@ map <A-4> :set tabstop=4 shiftwidth=4<CR>
 map <Tab> :tabnext<CR>
 map <A-t> :tabnext<CR>
 map <A-C-t> :tabnew<CR>
+map <A-Backspace> :bdelete<CR>
 
 " CoC
 xmap <leader>f  <Plug>(coc-format-selected)

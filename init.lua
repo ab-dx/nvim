@@ -6,6 +6,7 @@ require('keybinds')
 require('highlights')
 --require('lsp')
 require('blankline')
+require('treesitter')
 -- Components
 require('components/topbar')
 require('components/statusline')

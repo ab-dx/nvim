@@ -1,6 +1,8 @@
 {
 	"Lua.diagnostics.globals": ["vim", "use"],
 	"tsserver.npm": "/usr/bin/npm",
+	"codeLens.enable": true,
+	"java.referencesCodeLens.enabled": true,
 	"suggest.completionItemKindLabels": {
 		"keyword": "\uf1de Keyword", //  sliders
 		"variable": "\ue79b Variable", //  isometric box
