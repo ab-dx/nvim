@@ -1,6 +1,6 @@
 -- Colorscheme
 vim.cmd([[
-colorscheme catppuccin
+colorscheme gruvbox-material
 ]])
 
 -- My defaults
@@ -22,5 +22,5 @@ vim.o.laststatus=2
 vim.cmd([[
   set shortmess+=c
 	let mapleader = " "
-	let g:coc_global_extensions = ['coc-tsserver', 'coc-lua', 'coc-html', 'coc-emmet']
+	let g:coc_global_extensions = ['coc-tsserver', 'coc-lua', 'coc-html', 'coc-emmet', 'coc-java', 'coc-lists']
 ]])

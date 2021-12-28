@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/crypticwave/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/crypticwave/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/crypticwave/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/crypticwave/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/crypticwave/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/helix/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/helix/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/helix/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/helix/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/helix/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -71,73 +71,73 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["bufferline.nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["coc.nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
   ["dashboard-nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
   ["gitsigns.nvim"] = {
-    config = { "\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
+    config = { "\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["i3config.vim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/i3config.vim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/i3config.vim",
     url = "https://github.com/mboughaba/i3config.vim"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
-  nvim = {
-    loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/nvim",
-    url = "https://github.com/Catppuccin/nvim"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "/home/crypticwave/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
   }
 }
@@ -145,7 +145,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: gitsigns.nvim
 time([[Config for gitsigns.nvim]], true)
-try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
+try_loadstring("\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
 time([[Config for gitsigns.nvim]], false)
 if should_profile then save_profiles() end
 

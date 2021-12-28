@@ -1,1 +1,1 @@
-vim.highlight.create('VertSplit', {guifg='#2d293b'}, false)
+vim.highlight.create('VertSplit', {guifg='#313131'}, false)

@@ -1,10 +1,10 @@
-local bg2 = "#1E1E28"
-local bg = "#15121C"
+local bg2 = "#282828"
+local bg = "#1d2021"
 local bg3 = bg
-local fg = "#D7DAE0"
-local accent = "#A4B9EF"
-local accent2 = "#E28C8C" -- Not saved
-local accent3 = "#EADDA0" -- Not saved
+local fg = "#d4be98"
+local accent = "#a9b665"
+local accent2 = "#ea6962" -- Not saved
+local accent3 = "#e78a4e" -- Not saved
 
 require("bufferline").setup{
 	options = {
@@ -59,7 +59,7 @@ require("bufferline").setup{
 			guibg = bg
 		},
 		indicator_selected = {
-			guifg = accent,
+			guifg = bg,
 			guibg = bg2
 		},
 

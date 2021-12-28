@@ -10,8 +10,8 @@ return require('packer').startup(function()
     'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' },
     config = function() require('gitsigns').setup() end
   }
-  use{ 'Catppuccin/nvim' }
---	use { 'sainnhe/gruvbox-material' }
+ -- use{ 'Catppuccin/nvim' }
+	use { 'sainnhe/gruvbox-material' }
   use { 'neoclide/coc.nvim', branch = 'release' }
   use {
   	'nvim-lualine/lualine.nvim',

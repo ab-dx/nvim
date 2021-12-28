@@ -1,17 +1,17 @@
 local lualine = require 'lualine'
 
 local colors = {
-  bg       = '#1B1923',
-  fg       = '#D7DAE0',
-  yellow   = '#EADDA0',
-  cyan     = '#9DDDCB',
-  blue 		 = '#A4B9EF',
-  green    = '#B3E1A3',
+  bg       = '#2E2E2E',
+  fg       = '#d4be98',
+  yellow   = '#e78a4e',
+  cyan     = '#89b482',
+  blue 		 = '#7daea3',
+  green    = '#a9b665',
   orange   = '#F7C196',
-  violet   = '#ECBFBD',
-  magenta  = '#C6AAE8',
-  darkblue = '#F0AFE1',
-  red      = '#E28C8C',
+  violet   = '#d3869b',
+  magenta  = '#d3869b',
+  darkblue = '#7daea3',
+  red      = '#ea6962',
 }
 local conditions = {
   buffer_not_empty = function()
