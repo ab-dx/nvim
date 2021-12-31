@@ -110,6 +110,11 @@ _G.packer_plugins = {
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  nvim = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim",
+    url = "https://github.com/Catppuccin/nvim"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim-treesitter",

@@ -1,11 +1,3 @@
-local bg2 = "#282828"
-local bg = "#1d2021"
-local bg3 = bg
-local fg = "#d4be98"
-local accent = "#a9b665"
-local accent2 = "#ea6962" -- Not saved
-local accent3 = "#e78a4e" -- Not saved
-
 require("bufferline").setup{
 	options = {
 		offsets = {{filetype = "coc-explorer", text = "" , text_align = "center"}},
@@ -31,63 +23,6 @@ require("bufferline").setup{
 		enforce_regular_tabs = true,
 		always_show_bufferline = true,
 		sort_by = 'directory'
-	},
-	highlights = {
-		fill = {
-			guibg = bg
-		},
-		background = {
-			guibg = bg3
-		},
-
-		-- buffer
-		buffer_selected = {
-			guifg = fg,
-			guibg = bg2,
-			gui = ""
-		},
-		separator = {
-			guifg = bg,
-			guibg = bg3
-		},
-		separator_selected = {
-			guifg = bg,
-			guibg = bg2
-		},
-		separator_visible = {
-			guifg = bg,
-			guibg = bg
-		},
-		indicator_selected = {
-			guifg = bg,
-			guibg = bg2
-		},
-
-		-- tabs over right
-		tab = {
-			guifg = fg,
-			guibg = bg3
-		},
-		tab_selected = {
-			guifg = accent2,
-			guibg = bg2
-		},
-		tab_close = {
-			guifg = accent,
-			guibg = bg2
-		},
-		modified_selected = {
-			guifg = accent2,
-			guibg = bg2
-		},
-		modified = {
-			guifg = accent3,
-			guibg = bg
-		},
-		modified_visible = {
-			guifg = accent,
-			guibg = bg
-		}
 	},
 
 	custom_areas = {

@@ -1,6 +1,6 @@
 -- Colorscheme
 vim.cmd([[
-colorscheme gruvbox-material
+colorscheme catppuccin 
 ]])
 
 -- My defaults
