@@ -9,6 +9,7 @@ require("indent_blankline").setup {
 		"lspinfo",
 		"TelescopePrompt",
 		"TelescopeResults",
+		"coc-explorer"
 	},
 	buftype_exclude = { "terminal" },
 	show_trailing_blankline_indent = false,

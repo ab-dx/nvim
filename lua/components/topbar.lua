@@ -1,6 +1,9 @@
 require("bufferline").setup{
 	options = {
-		offsets = {{filetype = "coc-explorer", text = "" , text_align = "center"}},
+		offsets = {
+			{filetype = "coc-explorer", text = "" , text_align = "center"},
+			{filetype = "NvimTree", text = "" , text_align = "center"}
+		},
 		indicator_icon = '▎',
 		buffer_close_icon = '',
 		modified_icon = '●',

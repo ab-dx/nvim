@@ -64,7 +64,9 @@ inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
 " General keybinds
-map <A-n> <Cmd>CocCommand explorer<CR>
+"map <A-n> <Cmd>CocCommand explorer<CR>
+map <A-n> <Cmd>NvimTreeToggle<CR><Cmd>vertical resize +10<CR>
+
 map <A-f> :Telescope find_files<CR>
 
 
