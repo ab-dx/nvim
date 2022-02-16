@@ -1,42 +1,60 @@
 {
-	"Lua.diagnostics.globals": ["vim", "use"],
-	"tsserver.npm": "/usr/bin/npm",
-	"codeLens.enable": true,
-	"java.referencesCodeLens.enabled": true,
-	"suggest.completionItemKindLabels": {
-		"keyword": "\uf1de Keyword", //  sliders
-		"variable": "\ue79b Variable", //  isometric box
-		"value": "\uf89f Literal", //  digits 123
-		"operator": "\u03a8 Operator", // Ψ greek letter psi
-		"constructor": "\uf0ad Constructor", //  wrench
-		"function": "\u0192 Function", // ƒ latin small letter F
-		"reference": "\ufa46 Reference", // 渚 retweet symbol
-		"constant": "\uf8fe Constant", //  greek letter pi
-		"method": "\uf09a Method", //  facebook "f"
-		"struct": "\ufb44 Struct", // פּ file tree
-		"class": "\uf0e8 Class", //  hierarchy / site map
-		"interface": "\uf417 Interface", //  git commit / line interrupted by circle
-		"text": "\ue612 Text", //  left-justified lines
-		"enum": "\uf02c Enum", //  pair of tags
-		"enumMember": "\uf02b Enum Member", //  tag
-		"module": "\uf40d Module", //  code file / page showing angle brackets
-		"color": "\ue22b Color", //  palette
-		"property": "\ue624 Property", //  predator dots
-		"field": "\uf9be Field", // 料left-justified sorted lines
-		"unit": "\uf475 Unit", //  negative-space ellipsis
-		"event": "\ufacd Event", // 鬒clock alert / clock with exclamation mark
-		"file": "\uf15b File", //  file / blank page
-		"folder": "\uf07b Folder", //  folder
-		"snippet": "\ue60b Snippet", //  pair of curly braces
-		"typeParameter": "\uf728 Parameter", //  file presentation box
-		"default": "\uf29c" //  question mark in circle
-	},
-	"explorer.icon.enableNerdfont": true,
-	"html.autoClosingTags": true,
-	"html.filetypes": ["html", "handlebars", "htmldjango", "blade", "vue", "svelte"],
-	"emmet.includeLanguages": {
-		"vue-html": "html",
-		"svelte-html": "html",
-		"javascript": "javascriptreact"
-	}
+  "Lua.diagnostics.globals": ["vim", "use"],
+  "tsserver.npm": "/usr/bin/npm",
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "suggest.completionItemKindLabels": {
+    "keyword": "\uf1de Keyword", //  sliders
+    "variable": "\ue79b Variable", //  isometric box
+    "value": "\uf89f Literal", //  digits 123
+    "operator": "\u03a8 Operator", // Ψ greek letter psi
+    "constructor": "\uf0ad Constructor", //  wrench
+    "function": "\u0192 Function", // ƒ latin small letter F
+    "reference": "\ufa46 Reference", // 渚 retweet symbol
+    "constant": "\uf8fe Constant", //  greek letter pi
+    "method": "\uf09a Method", //  facebook "f"
+    "struct": "\ufb44 Struct", // פּ file tree
+    "class": "\uf0e8 Class", //  hierarchy / site map
+    "interface": "\uf417 Interface", //  git commit / line interrupted by circle
+    "text": "\ue612 Text", //  left-justified lines
+    "enum": "\uf02c Enum", //  pair of tags
+    "enumMember": "\uf02b Enum Member", //  tag
+    "module": "\uf40d Module", //  code file / page showing angle brackets
+    "color": "\ue22b Color", //  palette
+    "property": "\ue624 Property", //  predator dots
+    "field": "\uf9be Field", // 料left-justified sorted lines
+    "unit": "\uf475 Unit", //  negative-space ellipsis
+    "event": "\ufacd Event", // 鬒clock alert / clock with exclamation mark
+    "file": "\uf15b File", //  file / blank page
+    "folder": "\uf07b Folder", //  folder
+    "snippet": "\ue60b Snippet", //  pair of curly braces
+    "typeParameter": "\uf728 Parameter", //  file presentation box
+    "default": "\uf29c" //  question mark in circle
+  },
+  "explorer.icon.enableNerdfont": true,
+  "explorer.git.enable": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "java",
+    "json"
+  ],
+  "html.autoClosingTags": true,
+  "html.filetypes": [
+    "html",
+    "handlebars",
+    "htmldjango",
+    "blade",
+    "vue",
+    "svelte"
+  ],
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "svelte-html": "html",
+    "javascript": "javascriptreact"
+  }
 }

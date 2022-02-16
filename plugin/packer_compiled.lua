@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/coc.nvim",
@@ -84,21 +89,26 @@ _G.packer_plugins = {
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["gitsigns.nvim"] = {
     config = { "\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  ["gruvbox-material"] = {
-    loaded = true,
-    path = "/home/helix/.local/share/nvim/site/pack/packer/start/gruvbox-material",
-    url = "https://github.com/sainnhe/gruvbox-material"
-  },
   ["i3config.vim"] = {
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/i3config.vim",
     url = "https://github.com/mboughaba/i3config.vim"
+  },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
@@ -110,10 +120,10 @@ _G.packer_plugins = {
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  nvim = {
+  ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim",
-    url = "https://github.com/Catppuccin/nvim"
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-tree.lua"] = {
     config = { "\27LJ\2\2;\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0" },
@@ -131,7 +141,15 @@ _G.packer_plugins = {
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["onedarker.nvim"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/onedarker.nvim",
+    url = "https://github.com/real-99/onedarker.nvim"
+  },
   ["packer.nvim"] = {
+    config = {
+      compile_path = "/home/helix/.config/nvim/lua/packer_compiled.lua"
+    },
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
@@ -142,23 +160,35 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
-    loaded = true,
-    path = "/home/helix/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    commands = { "Telescope" },
+    loaded = false,
+    needs_bufread = true,
+    only_cond = false,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/opt/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-floaterm"] = {
-    loaded = true,
-    path = "/home/helix/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    commands = { "FloatermToggle" },
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/opt/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
   },
-  ["vscode.nvim"] = {
-    loaded = true,
-    path = "/home/helix/.local/share/nvim/site/pack/packer/start/vscode.nvim",
-    url = "https://github.com/Mofiqul/vscode.nvim"
+  ["vim-startuptime"] = {
+    commands = { "StartupTime" },
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/opt/vim-startuptime",
+    url = "https://github.com/dstein64/vim-startuptime"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: packer.nvim
+time([[Config for packer.nvim]], true)
+time([[Config for packer.nvim]], false)
 -- Config for: gitsigns.nvim
 time([[Config for gitsigns.nvim]], true)
 try_loadstring("\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
@@ -167,10 +197,19 @@ time([[Config for gitsigns.nvim]], false)
 time([[Config for nvim-tree.lua]], true)
 try_loadstring("\27LJ\2\2;\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
 time([[Config for nvim-tree.lua]], false)
+
+-- Command lazy-loads
+time([[Defining lazy-load commands]], true)
+pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file FloatermToggle lua require("packer.load")({'vim-floaterm'}, { cmd = "FloatermToggle", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
+pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file Telescope lua require("packer.load")({'telescope.nvim'}, { cmd = "Telescope", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
+pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file StartupTime lua require("packer.load")({'vim-startuptime'}, { cmd = "StartupTime", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
+time([[Defining lazy-load commands]], false)
+
 if should_profile then save_profiles() end
 
 end)
 
 if not no_errors then
+  error_msg = error_msg:gsub('"', '\\"')
   vim.api.nvim_command('echohl ErrorMsg | echom "Error in packer_compiled: '..error_msg..'" | echom "Please check your config for correctness" | echohl None')
 end

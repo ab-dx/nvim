@@ -53,21 +53,26 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>s :CocFix<CR>
 
 " Autoclose brackets
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+"inoremap " ""<left>
+"inoremap ' ''<left>
+"inoremap ( ()<left>
+"inoremap [ []<left>
+"inoremap { {}<left>
+"inoremap {<CR> {<CR>}<ESC>O
+"inoremap {;<CR> {<CR>};<ESC>O
 
 " General keybinds
-"map <A-n> <Cmd>CocCommand explorer<CR>
-map <A-n> <Cmd>NvimTreeToggle<CR><Cmd>vertical resize +10<CR>
+map <A-n> <Cmd>CocCommand explorer<CR>
+map <leader>n <Cmd>NvimTreeToggle<CR><Cmd>vertical resize +10<CR>
 
 map <A-f> :Telescope find_files<CR>
+map <leader>f :Telescope find_files<CR>
+map <leader>o :Telescope old_files<CR>
+map <leader>w :Telescope live_grep<CR>
+map <leader>b :Telescope marks<CR>
 
 
 ]])

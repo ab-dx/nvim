@@ -9,6 +9,8 @@ let g:coc_explorer_global_presets = {
 \ }
 ]])
 
+vim.g.nvim_tree_root_folder_modifier = table.concat { ":t:gs?$?/..", string.rep(" ", 1000), "?:gs?^??" }
+
 require'nvim-tree'.setup {
   disable_netrw       = true,
   hijack_netrw        = true,
@@ -41,8 +43,10 @@ require'nvim-tree'.setup {
     args = {}
   },
   filters = {
-    dotfiles = false,
-    custom = {}
+    dotfiles = true,
+    custom = {
+			"*.class"
+		}
   },
   git = {
     enable = true,
