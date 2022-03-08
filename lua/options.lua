@@ -14,10 +14,11 @@ vim.o.updatetime = 300
 vim.o.cmdheight = 2
 vim.o.laststatus=2
 vim.o.fillchars = 'eob: '
+vim.g.vscode_style = "dark"
 
 vim.cmd([[
   set shortmess+=c
 	let mapleader = " "
 	let g:coc_global_extensions = ['coc-tsserver', 'coc-lua', 'coc-html', 'coc-emmet', 'coc-java', 'coc-lists']
-	colorscheme catppuccin
+	colorscheme vscode
 ]])

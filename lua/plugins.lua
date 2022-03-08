@@ -35,12 +35,15 @@ return require('packer').startup(function()
   }
 	use { 'mboughaba/i3config.vim' }
 	use { 'voldikss/vim-floaterm', cmd = 'FloatermToggle' }
-	use { 'real-99/onedarker.nvim' }
+	use { 'real-99/oneDarker.nvim' }
 	use { 'Mofiqul/dracula.nvim' }
 	use({
 		"catppuccin/nvim",
 		as = "catppuccin"
 	})
+	use { "projekt0n/github-nvim-theme" }
+	use { "briones-gabriel/Darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+	use { "Mofiqul/vscode.nvim" }
   use { 'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons' }
 	use {
   	'nvim-lualine/lualine.nvim',

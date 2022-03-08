@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Darcula-solid.nvim"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/Darcula-solid.nvim",
+    url = "https://github.com/briones-gabriel/Darcula-solid.nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -93,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
+  },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
   },
   ["gitsigns.nvim"] = {
     config = { "\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
@@ -120,6 +130,11 @@ _G.packer_plugins = {
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -141,10 +156,10 @@ _G.packer_plugins = {
     path = "/home/helix/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["onedarker.nvim"] = {
+  ["oneDarker.nvim"] = {
     loaded = true,
-    path = "/home/helix/.local/share/nvim/site/pack/packer/start/onedarker.nvim",
-    url = "https://github.com/real-99/onedarker.nvim"
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/oneDarker.nvim",
+    url = "https://github.com/real-99/oneDarker.nvim"
   },
   ["packer.nvim"] = {
     config = {
@@ -182,6 +197,11 @@ _G.packer_plugins = {
     only_cond = false,
     path = "/home/helix/.local/share/nvim/site/pack/packer/opt/vim-startuptime",
     url = "https://github.com/dstein64/vim-startuptime"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/home/helix/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 

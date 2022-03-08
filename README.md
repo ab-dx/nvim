@@ -11,7 +11,7 @@ My neovim configuration, designed mainly for speed while keeping aesthetics in m
 - Package management: [packer.nvim](https://github.com/wbthomason/packer.nvim) 📦
 - Start-up screen: [dashboard.nvim](https://github.com/glepnir/dashboard-nvim) 🎯
 - Intellisense: [coc.nvim](https://github.com/neoclide/coc.nvim) 🧠
-- Colorscheme: [Catppuccin](https://github.com/catppuccin/nvim)
+- Colorscheme: [Vscode.nvim](https://github.com/Mofiqul/vscode.nvim)
 - Status bar: [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) ℹ
 - Tabline: [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 📔
 - File Navigation: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) and [coc-explorer](https://github.com/weirongxu/coc-explorer) 📁
